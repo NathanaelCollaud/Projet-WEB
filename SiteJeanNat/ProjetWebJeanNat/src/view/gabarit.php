@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="view/content/css/templatemo-style.css" />
 </head>
 <body>
+
 <div class="row tm-brand-row">
     <div class="col-lg-4 col-10">
         <div class="tm-brand-container">
