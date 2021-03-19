@@ -30,10 +30,7 @@ ob_start();
                         <h5><span style="color:red"><?= $loginErrorMessage; ?></span></h5>
                     <?php endif ?>
 
-                    <div >
-                        --inserer barre latèrale orange--
 
-                    </div>
 
                     <form class="leave-comment" action="index.php?action=login" method="post" >
                         <h4 class="m-text26 p-b-36 p-t-15">
