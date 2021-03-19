@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2ea14dc-4f61-4fb4-a96f-50770156429e" name="Default Changelist" comment="" />
+    <list default="true" id="b2ea14dc-4f61-4fb4-a96f-50770156429e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetWebJeanNat/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetWebJeanNat/src/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,10 +45,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../php/php.exe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$" port="8680">
+    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$" port="808">
       <method v="2" />
     </configuration>
   </component>
@@ -61,6 +71,8 @@
       <updated>1615189309098</updated>
       <workItem from="1615189310222" duration="5595000" />
       <workItem from="1616179530287" duration="103000" />
+      <workItem from="1616179634684" duration="1271000" />
+      <workItem from="1616180954485" duration="3149000" />
     </task>
     <servers />
   </component>
@@ -80,22 +92,33 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="194" key="#CLI_Interpreters" timestamp="1615189330540">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="540" y="194" key="#CLI_Interpreters/0.0.1920.1080@0.0.1920.1080" timestamp="1615189330540" />
-    <state x="667" y="182" key="#PHP" timestamp="1615189332240">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="667" y="182" key="#PHP/0.0.1920.1080@0.0.1920.1080" timestamp="1615189332240" />
-    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615189338960">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1615189338960" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1616179631433">
+    <state x="49" y="350" key="#CLI_Interpreters" timestamp="1616183693306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616179631433" />
+    <state x="49" y="350" key="#CLI_Interpreters/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616183693306" />
+    <state x="540" y="194" key="#CLI_Interpreters/0.0.1920.1080@0.0.1920.1080" timestamp="1615189330540" />
+    <state x="845" y="383" key="#Notifications" timestamp="1616179927984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="383" key="#Notifications/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616179927984" />
+    <state x="667" y="143" key="#PHP" timestamp="1616184256983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="143" key="#PHP/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616184256983" />
+    <state x="667" y="182" key="#PHP/0.0.1920.1080@0.0.1920.1080" timestamp="1615189332240" />
+    <state x="669" y="202" key="#Unnamed" timestamp="1616180707123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="202" key="#Unnamed/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616180707123" />
+    <state x="414" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616184258218">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616184258218" />
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1615189338960" />
+    <state x="263" y="293" key="FileChooserDialogImpl" timestamp="1616183683441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="263" y="293" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616183683441" />
     <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1615196472542">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -112,5 +135,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1615196472542" />
+    <state x="372" y="105" key="SettingsEditor" timestamp="1616182491484">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="372" y="105" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616182491484" />
   </component>
 </project>
