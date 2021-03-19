@@ -25,17 +25,15 @@
     <link rel="stylesheet" href="view/content/css/all.min.css" />
     <link rel="stylesheet" href="view/content/css/bootstrap.min.css" />
     <link rel="stylesheet" href="view/content/css/templatemo-style.css" />
+    <link rel="stylesheet" href="view/content/css/manualCssAdds.css"
 </head>
 <body>
 
-<div class="row tm-brand-row">
-    <div class="col-lg-4 col-10">
-        <div class="tm-brand-container">
-            <div class="tm-brand-texts">
-                <h1 class="text-uppercase tm-brand-name">Next Level</h1>
-            </div>
-        </div>
-    </div>
+
+<div class="orangeMargin"> </div>
+
+
+
     <div class="col-lg-8 col-2 tm-nav-col">
         <div class="tm-nav">
             <nav class="navbar navbar-expand-lg navbar-light tm-navbar">
@@ -83,15 +81,7 @@
 
 <?=$content; ?>
 
-<div>
-<!-- Page footer -->
-<footer class="row tm-page-footer">
-    <p class="col-12 tm-copyright-text mb-0">
-        Copyright &copy; 2019 Next Level Company... Designed by
-        <a href="https://fb.com/templatemo" rel="nofollow" class="tm-copyright-link">Template Mo</a>
-    </p>
-</footer>
-</div>
+
 
 <script src="view/content/js/jquery.min.js"></script>
 <script src="view/content/js/parallax.min.js"></script>
