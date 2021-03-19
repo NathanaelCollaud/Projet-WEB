@@ -11,11 +11,20 @@ ob_start();
 $title = "Accueil";
 ?>
 
-<div class="">
-<img src="view/content/img/logoPintEdit.png"/>
+    <body>
+
+    <div>
+        <img src="view/content/img/logoPintEdit.png"/>
+
+        <h1 class="centerTitreAccueil">PintEdit</h1>
+    </div>
 
 
-</div>
+
+
+    </body>
+
+
 
 
 

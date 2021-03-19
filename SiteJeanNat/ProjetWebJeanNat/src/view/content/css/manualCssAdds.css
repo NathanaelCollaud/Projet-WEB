@@ -6,9 +6,13 @@
     width: 20%;
     height: 100%;
 }
-.imageAccueil {
-    top: 0%;
+.centerTitreAccueil {
 
+position: fixed;
+    top: 100px;
+    left: 290px;
+
+    background-color: #1c7430;
 
 
 }
