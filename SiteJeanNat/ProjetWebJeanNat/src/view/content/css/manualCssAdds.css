@@ -9,10 +9,35 @@
 .centerTitreAccueil {
 
 position: fixed;
-    top: 100px;
-    left: 290px;
+    top: 13%;
+    left: 35%;
+}
+.AccueilTrierPar {
 
-    background-color: #1c7430;
+    position: fixed;
+    left: 55%;
+}
 
+.AccueilFiltre {
+
+    position: fixed;
+
+    right: 9%;
+
+}
+
+.AccueilTri{
+
+   position: fixed;
+
+    left: 65%;
+    top: 30%;
+}
+
+.AccueilBouton{
+
+    position: fixed;
+
+    left: 65%;
 
 }
