@@ -25,19 +25,11 @@ $NIF = "view/content/img/contact-us.jpg";
 
     <div>
 
-        <select datasrc=""></select>
-
 
         <select name="tri" class="AccueilTri">
 
             <option value="Date(récent)">Date (récent)</option>
             <option value="Date(ancien)">Date (ancien)</option>
-
-        </select>
-
-        <select>
-
-
 
         </select>
 
@@ -54,12 +46,45 @@ $NIF = "view/content/img/contact-us.jpg";
 
     </div>
 
-    <div>
+<div class="grilleAccueil">
 
-
+    <div >
+        <div>
+            <img class="imageAccueil" src="view/content/img/map.png"/>
+        </div>
     </div>
 
+    <div>
+        <div>
+            <img class="imageAccueil" src="view/content/img/map.png"/>
+        </div>
+    </div>
 
+    <div>
+        <div>
+            <img class="imageAccueil" src="view/content/img/map.png"/>
+        </div>
+    </div>
+
+    <div >
+        <div>
+            <img class="imageAccueil" src="view/content/img/map.png"/>
+        </div>
+    </div>
+
+    <div >
+        <div>
+            <img class="imageAccueil" src="view/content/img/map.png"/>
+        </div>
+    </div>
+
+    <div >
+        <div>
+            <img class="imageAccueil" src="view/content/img/map.png"/>
+        </div>
+    </div>
+
+</div>
 
     </body>
 
