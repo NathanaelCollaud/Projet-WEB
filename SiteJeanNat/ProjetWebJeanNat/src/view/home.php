@@ -10,6 +10,8 @@
 ob_start();
 $title = "Accueil";
 
+
+
 ?>
 
     <head>
@@ -22,13 +24,17 @@ $title = "Accueil";
 
     <div>
 
-
+        <form action="../controler/controler.php" method="post">
         <select name="tri" class="AccueilTri">
 
-            <option value="Date(récent)">Date (récent)</option>
-            <option value="Date(ancien)">Date (ancien)</option>
+            <option value="DateRe" selected >Date (récent)</option>
+            <option value="DateAn"          >Date (ancien)</option>
 
         </select>
+        </form>
+
+
+
 
 
         <img class="logoAccueil" src="view/content/img/logoPintEdit.png"/>
@@ -47,7 +53,7 @@ $title = "Accueil";
 
     <div class=zoom>
         <div class=image>
-            <img class="" src="<?php  test  ?>"    />
+            <img class="" src="<?php   ?>"    />
         </div>
     </div>
 
