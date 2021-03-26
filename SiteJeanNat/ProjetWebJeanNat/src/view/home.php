@@ -10,11 +10,13 @@
 ob_start();
 $title = "Accueil";
 
+
+
 ?>
 
     <head>
 
-        <script src="/ProjetWebJeanNat/src/data/BaseData.json"></script>
+
 
     </head>
 
@@ -38,7 +40,7 @@ $title = "Accueil";
 
         <h1 class="centerTitreAccueil">PintEdit</h1>
 
-        <h3 class="AccueilTrierPar"> Trier par</h3>
+        <h3 class="AccueilTrierPar"> Trier Par  </h3>
 
         <h4 class="AccueilFiltre"> Filtre</h4>
 

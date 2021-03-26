@@ -1,22 +1,29 @@
+
+
+
+
 {
   "Mail": "jean-amedee.bosch@cpnv.ch",
   "Password": "1234",
   "Pseudo": "zutzut333",
   "ProfileCreationdate": "24.03.2021",
   "Albumes": [
- [
-        "ruelle",
-        "22",
-        "12",
-        "un chien",
-        "02.01.2021",
-        "Zurich",
-        "chien"
-      ],
-   [
-    "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/image-1.jpg",
-    "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/image-2.jpg",
-    "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/blooming-bg.jpg"
+    [
+      "ruelle",
+      "22",
+      "12",
+      "un chien",
+      "02.01.2021",
+      "Zurich",
+      "chien"
+    ],
+    [
+      "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/image-1.jpg",
+      "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/image-2.jpg",
+      "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/blooming-bg.jpg"
+    ]
   ]
-  ]}
+}
+
+
 
