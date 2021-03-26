@@ -1,56 +1,56 @@
 {
+  "users":
+          [
 
+            {
 
   "Mail": "jean-amedee.bosch@cpnv.ch",
   "Password": "1234",
   "Pseudo": "zutzut333",
   "ProfileCreationdate": "24.03.2021",
   "Albumes": [
- [
-        "ruelle",
-        "22",
-        "12",
-        "un chien",
-        "02.01.2021",
-        "Zurich",
-        "chien"
-      ],
-   [
-    "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/image-1.jpg",
-    "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/image-2.jpg",
-    "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/blooming-bg.jpg"
-  ]
-  ],
-
-
-
-
-
-  "Mail": "nat.collaud@cpnv.ch",
-  "Password": "1234",
-  "Pseudo": "natoo",
-  "ProfileCreationdate": "24.03.2020",
-  "Albumes": [
     [
-      "la gouille",
-      "10",
-      "4",
-      "un chat",
-      "02.01.2020",
-      "Yverdon",
-      "chat"
+      "ruelle",
+      "22",
+      "12",
+      "un chien",
+      "02.01.2021",
+      "Zurich",
+      "chien"
     ],
     [
       "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/image-1.jpg",
       "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/image-2.jpg",
       "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/blooming-bg.jpg"
     ]
-  ],
+  ]
+            },
+
+            {
+              "Mail": "nat.collaud@cpnv.ch",
+              "Password": "1234",
+              "Pseudo": "natoo",
+              "ProfileCreationdate": "24.03.2020",
+              "Albumes": [
+                [
+                  "la gouille",
+                  "10",
+                  "4",
+                  "un chat",
+                  "02.01.2020",
+                  "Yverdon",
+                  "chat"
+                ],
+                [
+                  "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/image-1.jpg",
+                  "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/image-2.jpg",
+                  "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/blooming-bg.jpg"
+                ]
+              ]
+            },
 
 
-
-
-
+            {
   "Mail": "hfh@cpnv.ch",
   "Password": "1234",
   "Pseudo": "hfh",
@@ -71,5 +71,10 @@
       "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/blooming-bg.jpg"
     ]
   ]
+
 }
+            ]
+
+}
+
 

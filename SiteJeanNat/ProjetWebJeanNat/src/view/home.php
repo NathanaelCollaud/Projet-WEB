@@ -9,14 +9,11 @@
 
 ob_start();
 $title = "Accueil";
-$NIF = "view/content/img/contact-us.jpg";
-
 
 ?>
 
     <head>
 
-        <script src="/ProjetWebJeanNat/src/data/BaseData.json"></script>
 
     </head>
 
@@ -50,7 +47,7 @@ $NIF = "view/content/img/contact-us.jpg";
 
     <div class=zoom>
         <div class=image>
-            <img class="" src="view/content/img/map.png"/>
+            <img class="" src="<?php  test  ?>"    />
         </div>
     </div>
 
