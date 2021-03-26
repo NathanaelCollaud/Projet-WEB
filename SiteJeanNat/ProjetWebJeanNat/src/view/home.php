@@ -9,8 +9,6 @@
 
 ob_start();
 $title = "Accueil";
-$NIF = "view/content/img/contact-us.jpg";
-
 
 ?>
 
