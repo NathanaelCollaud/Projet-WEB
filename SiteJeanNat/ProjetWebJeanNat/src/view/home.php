@@ -34,7 +34,7 @@ $NIF = "view/content/img/contact-us.jpg";
         </select>
 
 
-        <img src="view/content/img/logoPintEdit.png"/>
+        <img class="logoAccueil" src="view/content/img/logoPintEdit.png"/>
 
         <a class="AccueilBouton" href="Account.php"> Compte </a>
 
@@ -48,39 +48,57 @@ $NIF = "view/content/img/contact-us.jpg";
 
 <div class="grilleAccueil">
 
-    <div >
-        <div>
-            <img class="imageAccueil" src="view/content/img/map.png"/>
+    <div class=zoom>
+        <div class=image>
+            <img class="" src="view/content/img/map.png"/>
         </div>
     </div>
 
-    <div>
-        <div>
-            <img class="imageAccueil" src="view/content/img/map.png"/>
+    <div class=zoom>
+        <div class=image>
+            <img class="" src="view/content/img/map.png"/>
         </div>
     </div>
 
-    <div>
-        <div>
-            <img class="imageAccueil" src="view/content/img/map.png"/>
+    <div class=zoom>
+        <div class=image>
+            <img class="" src="view/content/img/map.png" />
         </div>
     </div>
 
-    <div >
-        <div>
-            <img class="imageAccueil" src="view/content/img/map.png"/>
+    <div class=zoom>
+        <div class=image>
+            <img class="" src="view/content/img/map.png"/>
         </div>
     </div>
 
-    <div >
-        <div>
-            <img class="imageAccueil" src="view/content/img/map.png"/>
+    <div class=zoom>
+        <div class=image>
+            <img class="" src="view/content/img/map.png"/>
         </div>
     </div>
 
-    <div >
-        <div>
-            <img class="imageAccueil" src="view/content/img/map.png"/>
+    <div class=zoom>
+        <div class=image>
+            <img class="" src="view/content/img/map.png"/>
+        </div>
+    </div>
+
+    <div class=zoom>
+        <div class=image>
+            <img class="" src="view/content/img/map.png"/>
+        </div>
+    </div>
+
+    <div class=zoom>
+        <div class=image>
+            <img class="" src="view/content/img/map.png"/>
+        </div>
+    </div>
+
+    <div class=zoom>
+        <div class=image>
+            <img class="" src="view/content/img/map.png"/>
         </div>
     </div>
 
