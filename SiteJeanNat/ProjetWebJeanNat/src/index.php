@@ -11,6 +11,7 @@ session_start();
 require "controler/users.php";
 require "controler/navigation.php";
 require "controler/controler.php";
+require "model/usersManager.php";
 
 if (isset($_GET['action'])) {
     $action = $_GET['action'];

@@ -66,3 +66,19 @@ function registerNewAccount($userEmailAddress, $userPsw)
     updateUsers($users);
     return true;
 }
+
+$json = file_get_contents("../src/data/album.json",);
+
+var_dump($json);
+
+function unCryptjsonDataAlbum ()
+{
+
+    $json = file_get_contents("../src/data/album.json",);
+    return json_decode($json);
+}
+
+
+
+
+

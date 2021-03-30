@@ -12,6 +12,7 @@
  */
 function home()
 {
+    $res = unCryptjsonDataAlbum();
     require "view/home.php";
 }
 
