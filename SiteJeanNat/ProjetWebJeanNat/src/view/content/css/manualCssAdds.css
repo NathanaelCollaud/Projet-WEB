@@ -55,7 +55,7 @@ position: relative;
 
     position: absolute;
     top: 450px;
-    left: 20px;
+    left: 40px;
     display: grid;
     grid-template-columns: 35% 35% 35%;
     grid-template-rows: 400px 400px 400px;
