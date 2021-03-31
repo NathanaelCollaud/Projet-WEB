@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @file      home.php
+ * @file      observation.php
  * @brief     This view is designed to display the home page
  * @author    Created by Pascal.BENZONANA
  * @author    Updated by Nicolas.GLASSEY
@@ -9,9 +9,14 @@
  */
 
 ob_start();
-$title = "Accueil";
+$title = "Observation";
 
 ?>
+
+
+
+
+
 
 
 <?php

@@ -69,19 +69,17 @@ function registerNewAccount($userEmailAddress, $userPsw)
 
 
 
-
-//$json = file_get_contents("../src/data/album.json",);
-
-//var_dump($json);
-
 function unCryptJsonDataAlbum ($case)
 {
 
 
-    $json = file_get_contents("../",);
+    $json = file_get_contents("../src/data/album.json",);
     return $json->{""}[$case]->{"Image"}[0];
 }
 
 
 
 
+$echo = unCryptJsonDataAlbum(1);
+
+echo $echo;
