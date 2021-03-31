@@ -10,10 +10,13 @@
 /**
  * @brief This function is designed to redirect the user to the home page (depending on the action received by the index)
  */
+
 function home()
 {
-    $res = unCryptjsonDataAlbum();
+
     require "view/home.php";
+
+
 }
 
 /**

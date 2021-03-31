@@ -1,17 +1,8 @@
 <?php
 
-/*$observation = [];
-
-$observation[3] = 2;
-
-echo $observation[3];
-
-function TrierParAccueil ()
-{
-
-}
 
 
+/*
 $valeurtest = isset($_POST['tri']);
 
 echo "$valeurtest";

@@ -67,17 +67,24 @@ function registerNewAccount($userEmailAddress, $userPsw)
     return true;
 }
 
-$json = file_get_contents("../src/data/album.json",);
 
-var_dump($json);
 
-function unCryptjsonDataAlbum ()
+
+//$json = file_get_contents("../src/data/album.json",);
+
+//var_dump($json);
+
+function unCryptjsonDataAlbum ($case)
 {
 
-    $json = file_get_contents("../src/data/album.json",);
-    return json_decode($json);
-}
 
+    $json = file_get_contents("../src/data/album.json",);
+    $imageAlbumAccueil = $json->{""}[$case]->{"Image"}[0];
+
+
+
+    return $imageAlbumAccueil;
+}
 
 
 

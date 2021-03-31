@@ -1,5 +1,5 @@
 <?php
-<<<<<<< Updated upstream
+
 /**
  * @file      home.php
  * @brief     This view is designed to display the home page
@@ -17,5 +17,4 @@ $title = "Accueil";
 <?php
 $content = ob_get_clean();
 require "gabarit.php";
-=======
->>>>>>> Stashed changes
+
