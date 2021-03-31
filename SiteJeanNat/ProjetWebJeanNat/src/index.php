@@ -28,6 +28,9 @@ if (isset($_GET['action'])) {
         case 'register' :
             register($_POST);
             break;
+        case "observation" :
+            observation();
+            break;
         default :
             lost();
     }
