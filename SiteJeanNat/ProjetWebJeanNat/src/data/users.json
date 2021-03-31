@@ -1,5 +1,6 @@
 [
 {
+<<<<<<< Updated upstream
   "ID": "0",
   "Mail": "jean-amedee.bosch@cpnv.ch",
   "Password": "1234",
@@ -23,3 +24,76 @@
     "ProfileCreationdate": "06.06.2006"
   }
 ]
+=======
+  "users": [
+    {
+      "Mail": "jean-amedee.bosch@cpnv.ch",
+      "Password": "1234",
+      "Pseudo": "zutzut333",
+      "ProfileCreationdate": "24.03.2021",
+      "Albumes": [
+        {
+          "ruelle",
+          "22",
+          "12",
+          "un chien",
+          "02.01.2021",
+          "Zurich",
+          "chien"
+        },
+        [
+          "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/image-1.jpg",
+          "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/image-2.jpg",
+          "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/blooming-bg.jpg"
+        ]
+      ]
+    },
+    {
+      "Mail": "nat.collaud@cpnv.ch",
+      "Password": "1234",
+      "Pseudo": "natoo",
+      "ProfileCreationdate": "24.03.2020",
+      "Albumes": [
+        [
+          "la gouille",
+          "10",
+          "4",
+          "un chat",
+          "02.01.2020",
+          "Yverdon",
+          "chat"
+        ],
+        [
+          "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/image-1.jpg",
+          "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/image-2.jpg",
+          "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/blooming-bg.jpg"
+        ]
+      ]
+    },
+    {
+      "Mail": "hfh@cpnv.ch",
+      "Password": "1234",
+      "Pseudo": "hfh",
+      "ProfileCreationdate": "24.03.2023",
+      "Albumes": [
+        [
+          "nrH",
+          "22",
+          "12",
+          "un DSG",
+          "02.01.2021",
+          "GGGG",
+          "souris"
+        ],
+        [
+          "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/image-1.jpg",
+          "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/image-2.jpg",
+          "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/blooming-bg.jpg"
+        ]
+      ]
+    }
+  ]
+}
+
+
+>>>>>>> Stashed changes

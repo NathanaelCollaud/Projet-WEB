@@ -2,104 +2,10 @@
 [
   {
     "ID": "0",
-    "IDUser": "0",
-    "Description": "blabla",
-    "Titre": "Ruelle",
-    "Date": "22.11.2012",
-    "Région": "Région lémanique",
-    "Animal": "renne",
-    "image" : ["view/content/img/ar-guy.jpg","view/content/img/bitcoin-girl.jpg"]
-  },
-
-  {
-    "ID": "1",
-    "IDUser": "0",
-    "Description": "adsg",
-    "Titre": "qwrg",
-    "Date": "22.11.2012",
-    "Région": "Espace Mittelland",
-    "Animal": "rat",
-    "image" : ["view/content/img/map.jpg","view/content/img/bitcoin-girl.jpg"]
-  },
-
-  {
-    "ID": "2",
-    "IDUser": "2",
-    "Description": "dgas",
-    "Titre": "tweqt",
-    "Date": "12.11.2012",
-    "Région": "Région lémanique",
-    "Animal": "corbeau",
-    "image" : ["view/content/img/ar-guy.jpg","view/content/img/bitcoin-girl.jpg"]
-  },
-
-  {
-    "ID": "3",
-    "IDUser": "1",
-    "Description": "blaczbbla",
-    "Titre": "qewte",
-    "Date": "30.11.2012",
-    "Région": "Tessin",
-    "Animal": "sardine",
-    "image" : ["view/content/img/ar-guy.jpg","view/content/img/bitcoin-girl.jpg"]
-  },
-
-  {
-    "ID": "4",
-    "IDUser": "2",
-    "Description": "vzb",
-    "Titre": "sdnb",
-    "Date": "13.11.2012",
-    "Région": "Zurich",
-    "Animal": "Pigeon",
-    "image" : ["view/content/img/ar-guy.jpg","view/content/img/bitcoin-girl.jpg"]
-  },
-
-  {
-    "ID": "5",
-    "IDUser": "0",
-    "Description": "ag",
-    "Titre": "vcx",
-    "Date": "06.11.2012",
-    "Région": "Tessin",
-    "Animal": "panthère",
-    "image" : ["view/content/img/ar-guy.jpg","view/content/img/bitcoin-girl.jpg"]
-  },
-
-  {
-    "ID": "6",
-    "IDUser": "2",
-    "Description": "arg",
-    "Titre": "addd",
-    "Date": "27.11.2012",
-    "Région": "Zurich",
-    "Animal": "poulpe",
-    "image" : ["view/content/img/ar-guy.jpg","view/content/img/bitcoin-girl.jpg"]
-  },
-
-  {
-    "ID": "7",
-    "IDUser": "1",
-    "Description": "waf",
-    "Titre": "umut",
-    "Date": "29.11.2012",
-    "Région": "Région lémanique",
-    "Animal": "chien",
-    "image" : ["view/content/img/ar-guy.jpg","view/content/img/bitcoin-girl.jpg"]
-  },
-
-  {
-    "ID": "8",
-    "IDUser": "0",
-    "Description": "hetq",
-    "Titre": "ynyet",
-    "Date": "26.11.2012",
-    "Région": "Suisse orientale",
-    "Animal": "triton",
-    "image" : ["view/content/img/ar-guy.jpg","view/content/img/bitcoin-girl.jpg"]
+    "Mail": "jean-amedee.bosch@cpnv.ch",
+    "Password": "1234",
+    "Pseudo": "zutzut333",
+    "ProfileCreationdate": "24.03.2021"
   }
+
 ]
-
-
-
-
