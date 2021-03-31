@@ -10,12 +10,10 @@
 ob_start();
 $title = "Accueil";
 
-$imageAlbumHome = [0,0,0,0,0,0,0,0,0];
 
-foreach ($imageAlbumHome as $value) {
-   $imageAlbumHome[$value] = unCryptJsonDataAlbum($value);
-}
-echo $imageAlbumHome[0].$title
+
+
+
 ?>
 
     <head>
@@ -54,55 +52,73 @@ echo $imageAlbumHome[0].$title
 
     <div class=zoom>
         <div class=image>
-            <img class="" src="view/content/img/map.png"/>
+            <a href="observation.php">
+            <img class=""  src="../view/content/img/map.png"  />
+                </a>
         </div>
     </div>
 
     <div class=zoom>
         <div class=image>
-            <img class="" src="view/content/img/map.png"/>
+            <a href="observation.php">
+            <img class="" src="<?php $_SESSION["dataHomeImage"][1]?>"/>
+            </a>
         </div>
     </div>
 
     <div class=zoom>
         <div class=image>
-            <img class="" src="view/content/img/map.png" />
+            <a href="observation.php">
+            <img class="" src="<?php $_SESSION["dataHomeImage"][2]?>" />
+            </a>
         </div>
     </div>
 
     <div class=zoom>
         <div class=image>
-            <img class="" src="view/content/img/map.png"/>
+            <a href="observation.php">
+            <img class="" src="<?php $_SESSION["dataHomeImage"][3]?>"/>
+            </a>
         </div>
     </div>
 
     <div class=zoom>
         <div class=image>
-            <img class="" src="view/content/img/map.png"/>
+            <a href="observation.php">
+            <img class="" src="<?php $_SESSION["dataHomeImage"][4]?>"/>
+            </a>
         </div>
     </div>
 
     <div class=zoom>
         <div class=image>
-            <img class="" src="view/content/img/map.png"/>
+            <a href="observation.php">
+            <img class="" src="<?php $_SESSION["dataHomeImage"][5]?>"/>
+            </a>
         </div>
     </div>
 
     <div class=zoom>
         <div class=image>
-            <img class="" src="view/content/img/map.png"/>
+            <a href="observation.php">
+            <img class="" src="<?php $_SESSION["dataHomeImage"][6]?>"/>
+            </a>
         </div>
     </div>
 
     <div class=zoom>
         <div class=image>
-            <img class="" src="view/content/img/map.png"/>
+            <a href="observation.php">
+            <img class="" src="<?php $_SESSION["dataHomeImage"][7]?>"/>
+            </a>
         </div>
     </div>
 
     <div class=zoom>
         <div class=image>
-            <img class="" src="view/content/img/map.png"/>
+            <a href="observation.php">
+            <img class="" src="<?php $_SESSION["dataHomeImage"][8]?>"/>
+            </a>
         </div>
     </div>
 

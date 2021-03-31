@@ -78,12 +78,8 @@ function unCryptJsonDataAlbum ($case)
 {
 
 
-    $json = file_get_contents("../src/data/album.json",);
-    $imageAlbumAccueil = $json->{""}[$case]->{"Image"}[0];
-
-
-
-    return $imageAlbumAccueil;
+    $json = file_get_contents("../",);
+    return $json->{""}[$case]->{"Image"}[0];
 }
 
 
