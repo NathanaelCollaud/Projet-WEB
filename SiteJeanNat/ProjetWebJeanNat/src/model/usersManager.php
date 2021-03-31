@@ -74,7 +74,7 @@ function registerNewAccount($userEmailAddress, $userPsw)
 
 //var_dump($json);
 
-function unCryptjsonDataAlbum ($case)
+function unCryptJsonDataAlbum ($case)
 {
 
 

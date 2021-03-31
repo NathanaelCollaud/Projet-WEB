@@ -10,10 +10,12 @@
 ob_start();
 $title = "Accueil";
 
+$imageAlbumHome = [0,0,0,0,0,0,0,0,0];
 
-
-unCryptjsonDataAlbum()
-
+foreach ($imageAlbumHome as $value) {
+   $imageAlbumHome[$value] = unCryptJsonDataAlbum($value);
+}
+echo $imageAlbumHome[0].$title
 ?>
 
     <head>
