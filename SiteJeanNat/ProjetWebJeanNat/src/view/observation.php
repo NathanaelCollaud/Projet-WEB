@@ -13,7 +13,10 @@ $title = "Observation";
 
 ?>
 
+<div class="grilleObservation">
 
+
+</div>
 
 
 
