@@ -92,14 +92,53 @@ position: relative;
 }
 
 
-.grilleObservation{
 
-    position: absolute;
-    top: 450px;
-    left: 40px;
-    display: grid;
-    grid-template-columns: 35% 35% 35%;
-    grid-template-rows: 400px 400px 400px;
-    grid-column-gap: 40px;
+.observationBoutonRetour{
+
+position: fixed;
+
+    top: 20px;
+    left: 20px;
+
+    width: 70px;
+    height: 70px;
+
+}
+
+.titreObservation{
+
+    position: fixed;
+
+    top: 30px;
+    left: 20%;
+
+}
+
+.lienCompteObservation{
+
+    position: fixed;
+
+    top: 20px;
+    left: 60%;
+}
+
+.bodyObservation{
+    position: fixed;
+    top: 70px;
+    left: 50px;
+}
+
+.imgObservation{
+    position:absolute;
+    left:-50%;
+    top:-50%;
+}
+
+.RognageObservation{
+    position: relative;
+    top : 20px;
+    width: 800px;
+    height: 200px;
+    overflow: hidden;
 
 }
