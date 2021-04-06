@@ -50,7 +50,7 @@ function login($loginRequest)
     }
 }
 
-/**
+/**                                                              
  * @brief This function is designed to manage logout request
  * @remark In case of login, the user session will be destroyed.
  */

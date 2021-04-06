@@ -1,0 +1,121 @@
+ {
+  "Albums": [
+    {
+      "ID": "0",
+      "IdUsers": "0",
+      "Titre": "ruelle",
+      "Région": "Zurich",
+      "AlbumCreationDate": "02.01.2021",
+      "Animal": "chien",
+      "Image": [
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/chien1.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/chien2.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/chien3.jpg"
+      ]
+    },
+    {
+      "ID": "1",
+      "IdUsers": "2",
+      "Titre": "arwh",
+      "Région": "Tessin",
+      "AlbumCreationDate": "02.30.2021",
+      "Animal": "chien",
+      "Image": [
+        "view/content/img/gallery/chien4.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/chien5.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/chien6.jpg"
+      ]
+    },
+    {
+      "ID": "2",
+      "IdUsers": "1",
+      "Titre": "wet",
+      "Région": "Région lémanique",
+      "AlbumCreationDate": "02.31.2021",
+      "Animal": "canard",
+      "Image": [
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/canard1.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/canard2.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/cygne1.jpg"
+      ]
+    },
+    {
+      "ID": "3",
+      "IdUsers": "1",
+      "Titre": "pioupiou",
+      "Région": "Région lémanique",
+      "AlbumCreationDate": "02.31.2021",
+      "Animal": "pigeon",
+      "Image": [
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/pigeon1.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/pigeon2.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/pigeon3.jpg"
+      ]
+    },
+    {
+      "ID": "4",
+      "IdUsers": "0",
+      "Titre": "meow",
+      "Région": "Suisse centrale",
+      "AlbumCreationDate": "03.01.2021",
+      "Animal": "chat",
+      "Image": [
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/chat1.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/chat2.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/chat3.jpg"
+      ]
+    },
+    {
+      "ID": "5",
+      "IdUsers": "2",
+      "Titre": "zooo",
+      "Région": "Zurich",
+      "AlbumCreationDate": "03.01.2021",
+      "Animal": "l'éléphant",
+      "Image": [
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/éléphant1.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/éléphant2.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/éléphant3.jpg"
+      ]
+    },
+    {
+      "ID": "6",
+      "IdUsers": "0",
+      "Titre": "Pause à la campagne",
+      "Région": "Suisse orientale",
+      "AlbumCreationDate": "03.02.2021",
+      "Animal": "vache",
+      "Image": [
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/vache1.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/vache2.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/vache3.jpg"
+      ]
+    },
+    {
+      "ID": "7",
+      "IdUsers": "1",
+      "Titre": "ça vole pas haut",
+      "Région": "Suisse centrale",
+      "AlbumCreationDate": "03.02.2021",
+      "Animal": "corbeaux",
+      "Image": [
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/corbeaux1.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/corbeaux2.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/corbeaux3.jpg"
+      ]
+    },
+    {
+      "ID": "8",
+      "IdUsers": "2",
+      "Titre": "oh c'est qui ça?",
+      "Région": "Suisse centrale",
+      "AlbumCreationDate": "03.04.2021",
+      "Animal": "chamois",
+      "Image": [
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/chien7.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/chamois1.jpg",
+        "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/chamois2.jpg"
+      ]
+    }
+  ]
+}
