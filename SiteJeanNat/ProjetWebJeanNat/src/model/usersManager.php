@@ -76,8 +76,18 @@ function unCryptJsonDataAlbum ($case)
 
     $json = file_get_contents("../src/data/album.json",false);
     $res = json_decode($json);
+
     return $res->{"Albums"}[$case]->{"Image"}[0];
 
 }
 
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> d5a73a37a08aa6c3025e8f125bb494c83ae5e582
+>>>>>>> Stashed changes

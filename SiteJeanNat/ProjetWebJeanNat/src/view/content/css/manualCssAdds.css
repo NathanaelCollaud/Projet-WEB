@@ -53,14 +53,15 @@ position: relative;
 }
 
 .grilleAccueil{
-
+overflow: hidden;
     position: absolute;
     top: 450px;
-    left: 40px;
+    left: 0px;
     display: grid;
-    grid-template-columns: 35% 35% 35%;
-    grid-template-rows: 400px 400px 400px;
-    grid-column-gap: 40px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    grid-column-gap: 20px;
+    width: max-content;
 
 }
 
@@ -91,9 +92,18 @@ position: relative;
     transform:scale(1.25);
 }
 
+<<<<<<< HEAD
+.galleryImage{
+    height:400px;
+=======
 
 .grilleObservation{
 
+<<<<<<< Updated upstream
+.grilleObservation{
+
+=======
+>>>>>>> Stashed changes
     position: absolute;
     top: 450px;
     left: 40px;
@@ -102,4 +112,8 @@ position: relative;
     grid-template-rows: 400px 400px 400px;
     grid-column-gap: 40px;
 
+<<<<<<< Updated upstream
+=======
+>>>>>>> d5a73a37a08aa6c3025e8f125bb494c83ae5e582
+>>>>>>> Stashed changes
 }
