@@ -38,7 +38,7 @@ $title = "Accueil";
 
         <img class="logoAccueil" src="view/content/img/logoPintEdit.png"/>
 
-        <a class="AccueilBouton" href="login.php"> Compte </a>
+        <a class="AccueilBouton" href="index.php?action=login"> Compte </a>
 
         <h1 class="centerTitreAccueil">PintEdit</h1>
 
