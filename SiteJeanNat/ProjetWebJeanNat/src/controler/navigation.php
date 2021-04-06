@@ -11,19 +11,8 @@
  * @brief This function is designed to redirect the user to the home page (depending on the action received by the index)
  */
 session_start();
-function defineImages(){
-
-    $res = [0,1,2,3,4,5,6,7,8];
-    $lienImage = [0,0,0,0,0,0,0,0,0];
-
-    foreach ($res as $value){
-
-        $_SESSION["dataHomeImage"][$value] = unCryptJsonDataAlbum($value);
 
 
-}
-return $lienImage;
-}
 
 
 
@@ -37,8 +26,8 @@ function home(){
     require "view/home.php";
 }
 
-function observation(){
-
+function observation($arg){
+$_GET['album']=$arg;
 
     require "view/observation.php";
 }

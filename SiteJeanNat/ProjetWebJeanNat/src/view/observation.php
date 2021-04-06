@@ -33,7 +33,20 @@ $title = "Observation";
 
 
 <body class="bodyObservation" >
+<?php foreach (json_decode(file_get_contents("../src/data/album.json",false))->{"Albums"}[$_GET['album']]->{"Image"} as $test){
 
+
+echo '<div class=zoom>
+    <div class=image>
+            <img class="galleryImage"  src="'.
+   unCryptJsonDataAlbum($_GET['album'])[$count].'" />
+
+       
+
+
+    </div>
+</div>';
+$count++;}?>
     <div  class="RognageObservation">
         <img src="view/content/img/pink-contem-girl.jpg" class="imgObservation">
     </div>
