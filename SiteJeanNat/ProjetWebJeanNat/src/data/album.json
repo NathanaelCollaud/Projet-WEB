@@ -22,7 +22,7 @@
     "AlbumCreationdate": "02.30.2021",
     "Animal": "chien",
     "Image": [
-      "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/chien4.jpg",
+      "view/content/img/gallery/chien4.jpg",
       "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/chien5.jpg",
       "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/chien6.jpg"
     ]
