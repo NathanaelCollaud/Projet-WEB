@@ -56,7 +56,7 @@ foreach (json_decode(file_get_contents("../src/data/album.json",false))->{"Album
 
     echo '<div class=zoom>
       <div class=image>
-            <a href="observation.php">
+            <a href="index.php?action=observation">
             <img class="galleryImage"  src="'.
    unCryptJsonDataAlbum($count).'" />
 
