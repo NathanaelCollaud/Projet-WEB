@@ -52,7 +52,7 @@ $title = "Accueil";
 
     <div class=zoom>
         <div class=image>
-            <a href="observation.php">
+            <a href="index.php?action=observation">
             <img class=""  src="<?php echo $_GET['image0Home']?>" />
                 </a>
         </div>
@@ -60,7 +60,7 @@ $title = "Accueil";
 
     <div class=zoom>
         <div class=image>
-            <a href="observation.php">
+            <a href="index.php?action=observation">
             <img class="" src="<?php $_SESSION["dataHomeImage"][1]?>"/>
             </a>
         </div>
@@ -68,7 +68,7 @@ $title = "Accueil";
 
     <div class=zoom>
         <div class=image>
-            <a href="observation.php">
+            <a href="index.php?action=observation">
             <img class="" src="<?php $_SESSION["dataHomeImage"][2]?>" />
             </a>
         </div>
@@ -76,7 +76,7 @@ $title = "Accueil";
 
     <div class=zoom>
         <div class=image>
-            <a href="observation.php">
+            <a href="index.php?action=observation">
             <img class="" src="<?php $_SESSION["dataHomeImage"][3]?>"/>
             </a>
         </div>
@@ -84,7 +84,7 @@ $title = "Accueil";
 
     <div class=zoom>
         <div class=image>
-            <a href="observation.php">
+            <a href="index.php?action=observation">
             <img class="" src="<?php $_SESSION["dataHomeImage"][4]?>"/>
             </a>
         </div>
@@ -92,7 +92,7 @@ $title = "Accueil";
 
     <div class=zoom>
         <div class=image>
-            <a href="observation.php">
+            <a href="index.php?action=observation">
             <img class="" src="<?php $_SESSION["dataHomeImage"][5]?>"/>
             </a>
         </div>
@@ -100,7 +100,7 @@ $title = "Accueil";
 
     <div class=zoom>
         <div class=image>
-            <a href="observation.php">
+            <a href="index.php?action=observation">
             <img class="" src="<?php $_SESSION["dataHomeImage"][6]?>"/>
             </a>
         </div>
@@ -108,7 +108,7 @@ $title = "Accueil";
 
     <div class=zoom>
         <div class=image>
-            <a href="observation.php">
+            <a href="index.php?action=observation">
             <img class="" src="<?php $_SESSION["dataHomeImage"][7]?>"/>
             </a>
         </div>
@@ -116,7 +116,7 @@ $title = "Accueil";
 
     <div class=zoom>
         <div class=image>
-            <a href="observation.php">
+            <a href="index.php?action=observation">
             <img class="" src="<?php $_SESSION["dataHomeImage"][8]?>"/>
             </a>
         </div>

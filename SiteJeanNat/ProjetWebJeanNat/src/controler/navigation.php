@@ -31,13 +31,14 @@ function home()
 {
 
     $_GET['image0Home'] = unCryptJsonDataAlbum(1);
-    echo "test";
-    echo $_GET['image0Home'];
+
     require "view/home.php";
 }
 
 function observation(){
 
+
+    require "view/observation.php";
 }
 
 /**

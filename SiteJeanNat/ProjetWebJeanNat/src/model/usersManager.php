@@ -81,8 +81,3 @@ function unCryptJsonDataAlbum ($case)
 }
 
 
-
-var_dump(unCryptJsonDataAlbum(1));
-$echo = unCryptJsonDataAlbum(1);
-
-echo $echo;
