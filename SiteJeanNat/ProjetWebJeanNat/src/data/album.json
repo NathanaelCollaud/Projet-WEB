@@ -1,7 +1,7 @@
-
-[
+{
+  "Albums" : [
   {
-    "ID" :"0",
+    "ID": "0",
     "IDusers": "0",
     "Titre": "ruelle",
     "Région": "Zurich",
@@ -13,9 +13,8 @@
       "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/chien3.jpg"
     ]
   },
-
   {
-    "ID" :"1",
+    "ID": "1",
     "IDusers": "2",
     "Titre": "arwh",
     "Région": "Tessin",
@@ -27,9 +26,8 @@
       "SiteJeanNat/ProjetWebJeanNat/src/view/content/img/gallery/chien6.jpg"
     ]
   },
-
   {
-    "ID" :"2",
+    "ID": "2",
     "IDusers": "1",
     "Titre": "wet",
     "Région": "Région lémanique",
@@ -42,7 +40,7 @@
     ]
   },
   {
-    "ID" :"3",
+    "ID": "3",
     "IDusers": "1",
     "Titre": "pioupiou",
     "Région": "Région lémanique",
@@ -55,7 +53,7 @@
     ]
   },
   {
-    "ID" :"4",
+    "ID": "4",
     "IDusers": "0",
     "Titre": "meow",
     "Région": "Suisse centrale",
@@ -68,7 +66,7 @@
     ]
   },
   {
-    "ID" :"5",
+    "ID": "5",
     "IDusers": "2",
     "Titre": "zooo",
     "Région": "Zurich",
@@ -81,7 +79,7 @@
     ]
   },
   {
-    "ID" :"6",
+    "ID": "6",
     "IDusers": "0",
     "Titre": "Pause à la campagne",
     "Région": "Suisse orientale",
@@ -94,7 +92,7 @@
     ]
   },
   {
-    "ID" :"7",
+    "ID": "7",
     "IDusers": "1",
     "Titre": "ça vole pas haut",
     "Région": "Suisse centrale",
@@ -107,7 +105,7 @@
     ]
   },
   {
-    "ID" :"8",
+    "ID": "8",
     "IDusers": "2",
     "Titre": "oh c'est qui ça?",
     "Région": "Suisse centrale",
@@ -120,3 +118,4 @@
     ]
   }
 ]
+}
