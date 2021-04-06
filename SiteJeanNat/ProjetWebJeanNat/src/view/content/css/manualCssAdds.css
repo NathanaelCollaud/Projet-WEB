@@ -131,17 +131,31 @@ position: fixed;
     left: 50px;
 }
 
-.imgObservation{
-    position:absolute;
-    left:-50%;
-    top:-50%;
-}
 
 .RognageObservation{
     position: relative;
     top : 20px;
-    width: 1200px;
-    height: 400px;
+
+    width: 1400px;
+    height: 500px;
+
     overflow: hidden;
 
+}
+
+.lateraltext{
+    position: fixed;
+    left :57%;
+    top: 200px;
+}
+
+.mapObservation{
+    position: fixed;
+    top: 80%;
+}
+
+.DescriptionObservation{
+    position: fixed;
+    top: 80%;
+    left: 30%;
 }

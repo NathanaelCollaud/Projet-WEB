@@ -14,8 +14,6 @@ session_start();
 
 
 
-
-
 function home(){
 
     $_GET['image0Home'] = unCryptJsonDataAlbum(1);
