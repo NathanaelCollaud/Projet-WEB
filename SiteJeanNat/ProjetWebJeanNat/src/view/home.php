@@ -28,10 +28,10 @@ $title = "Accueil";
     <div>
 
 
-        <select name="tri" class="AccueilTri">
+        <select name="tri" class="AccueilTri" id="tri">
 
-            <option value="Date(récent)">Date (récent)</option>
-            <option value="Date(ancien)">Date (ancien)</option>
+            <option value="recent">Date (récent)</option>
+            <option value="ancien">Date (ancien)</option>
 
         </select>
 
