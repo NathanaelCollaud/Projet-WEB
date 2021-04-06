@@ -26,11 +26,13 @@ return $lienImage;
 }
 
 
+
 function home()
 {
 
-      defineImages();
-
+    $_GET['image0Home'] = unCryptJsonDataAlbum(1);
+    echo "test";
+    echo $_GET['image0Home'];
     require "view/home.php";
 }
 
