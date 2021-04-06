@@ -53,7 +53,7 @@ $title = "Accueil";
     <div class=zoom>
         <div class=image>
             <a href="observation.php">
-            <img class=""  src="../view/content/img/map.png"  />
+            <img class=""  src="<?php echo $_GET['image0Home']?>" />
                 </a>
         </div>
     </div>
