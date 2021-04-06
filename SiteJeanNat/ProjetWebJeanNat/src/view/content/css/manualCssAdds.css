@@ -155,8 +155,13 @@ position: fixed;
     top: 80%;
 }
 
-.DescriptionObservation{
+.DescriptionObservation {
     position: fixed;
     top: 80%;
     left: 30%;
+}
+.observation{
+    margin-left: 10%;
+    width:1200px;
+    padding: 50px;
 }

@@ -32,15 +32,15 @@ $title = "Observation";
 </header>
 
 
-<body class="bodyObservation" >
+<body >
 <?php
 $count=0;
 foreach (json_decode(file_get_contents("../src/data/album.json",false))->{"Albums"}[$_GET['album']]->{"Image"} as $test){
 
 
 echo '
-    <div class=image>
-            <img class="galleryImage"  src="'
+    <div class=observation>
+            <img class="observation"  src="'
    .$test.'" />
 
        
@@ -51,33 +51,11 @@ echo '
 $count++;}?>
 
 
-    <div class="lateraltext">
-        <h2>
-            Auteur
-        </h2>
-        <br>
-        <h2>
-            E-mail
-        </h2>
-        <br>
-        <h2>
-            Date
-        </h2>
-        <br>
-        <h2>
-            Lieu
-        </h2>
-        <br>
-        <h2>
-            Animal(aux)
-        </h2>
-    </div>
 
 
 
-    <div class="DescriptionObservation">
-        <h2>Description</h2>
-    </div>
+
+
 
 </body>
 
