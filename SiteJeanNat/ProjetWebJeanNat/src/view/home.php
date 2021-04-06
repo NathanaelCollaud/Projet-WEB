@@ -44,7 +44,7 @@ $title = "Accueil";
 
         <h3 class="AccueilTrierPar"> Trier Par  </h3>
 
-        <h4 class="AccueilFiltre"> Filtre</h4>
+        <h4 class="AccueilFiltre"></h4>
 
     </div>
 
