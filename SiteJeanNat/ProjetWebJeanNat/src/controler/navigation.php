@@ -27,10 +27,12 @@ return $lienImage;
 
 
 
-function home()
-{
+function home(){
 
     $_GET['image0Home'] = unCryptJsonDataAlbum(1);
+
+    //echo "test";
+    //cho $_GET['image0Home'];
 
     require "view/home.php";
 }

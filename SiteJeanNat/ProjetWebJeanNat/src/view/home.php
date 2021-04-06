@@ -49,78 +49,25 @@ $title = "Accueil";
     </div>
 
 <div class="grilleAccueil">
+<?php
+$count=0;
+foreach (json_decode(file_get_contents("../src/data/album.json",false))->{"Albums"} as $test){
 
-    <div class=zoom>
-        <div class=image>
+
+    echo '<div class=zoom>
+      <div class=image>
             <a href="index.php?action=observation">
-            <img class=""  src="<?php echo $_GET['image0Home']?>" />
+            <img class="galleryImage"  src="'.
+   unCryptJsonDataAlbum($count).'" />
+
                 </a>
-        </div>
-    </div>
 
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][1]?>"/>
-            </a>
+   
         </div>
-    </div>
+    </div>';
+$count++;}?>
 
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][2]?>" />
-            </a>
-        </div>
-    </div>
 
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][3]?>"/>
-            </a>
-        </div>
-    </div>
-
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][4]?>"/>
-            </a>
-        </div>
-    </div>
-
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][5]?>"/>
-            </a>
-        </div>
-    </div>
-
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][6]?>"/>
-            </a>
-        </div>
-    </div>
-
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][7]?>"/>
-            </a>
-        </div>
-    </div>
-
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][8]?>"/>
-            </a>
-        </div>
-    </div>
 
 </div>
 
