@@ -27,20 +27,13 @@ return $lienImage;
 
 
 
-function home()
-{
+function home(){
 
     $_GET['image0Home'] = unCryptJsonDataAlbum(1);
-<<<<<<< Updated upstream
 
-=======
-<<<<<<< HEAD
     //echo "test";
-    //echo $_GET['image0Home'];
-=======
+    //cho $_GET['image0Home'];
 
->>>>>>> d5a73a37a08aa6c3025e8f125bb494c83ae5e582
->>>>>>> Stashed changes
     require "view/home.php";
 }
 

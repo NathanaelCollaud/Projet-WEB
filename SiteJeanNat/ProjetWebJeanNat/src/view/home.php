@@ -53,7 +53,7 @@ $title = "Accueil";
 $count=0;
 foreach (json_decode(file_get_contents("../src/data/album.json",false))->{"Albums"} as $test){
 
-<<<<<<< HEAD
+
     echo '<div class=zoom>
       <div class=image>
             <a href="observation.php">
@@ -61,83 +61,13 @@ foreach (json_decode(file_get_contents("../src/data/album.json",false))->{"Album
    unCryptJsonDataAlbum($count).'" />
 
                 </a>
-=======
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class=""  src="<?php echo $_GET['image0Home']?>" />
-                </a>
-        </div>
-    </div>
 
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][1]?>"/>
-            </a>
-        </div>
-    </div>
-
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][2]?>" />
-            </a>
-        </div>
-    </div>
-
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][3]?>"/>
-            </a>
-        </div>
-    </div>
-
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][4]?>"/>
-            </a>
-        </div>
-    </div>
-
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][5]?>"/>
-            </a>
-        </div>
-    </div>
-
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][6]?>"/>
-            </a>
-        </div>
-    </div>
-
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][7]?>"/>
-            </a>
->>>>>>> d5a73a37a08aa6c3025e8f125bb494c83ae5e582
+   
         </div>
     </div>';
 $count++;}?>
 
-<<<<<<< HEAD
-=======
-    <div class=zoom>
-        <div class=image>
-            <a href="index.php?action=observation">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][8]?>"/>
-            </a>
-        </div>
-    </div>
->>>>>>> d5a73a37a08aa6c3025e8f125bb494c83ae5e582
+
 
 </div>
 

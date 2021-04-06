@@ -82,12 +82,3 @@ function unCryptJsonDataAlbum ($case)
 }
 
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> d5a73a37a08aa6c3025e8f125bb494c83ae5e582
->>>>>>> Stashed changes

@@ -92,18 +92,17 @@ overflow: hidden;
     transform:scale(1.25);
 }
 
-<<<<<<< HEAD
-.galleryImage{
-    height:400px;
-=======
 
-.grilleObservation{
+.galleryImage {
+    height: 400px;
 
-<<<<<<< Updated upstream
-.grilleObservation{
 
-=======
->>>>>>> Stashed changes
+}
+
+
+.grilleObservation {
+
+
     position: absolute;
     top: 450px;
     left: 40px;
@@ -112,8 +111,4 @@ overflow: hidden;
     grid-template-rows: 400px 400px 400px;
     grid-column-gap: 40px;
 
-<<<<<<< Updated upstream
-=======
->>>>>>> d5a73a37a08aa6c3025e8f125bb494c83ae5e582
->>>>>>> Stashed changes
 }
