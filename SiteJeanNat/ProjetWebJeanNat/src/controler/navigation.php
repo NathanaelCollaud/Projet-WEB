@@ -10,32 +10,29 @@
 /**
  * @brief This function is designed to redirect the user to the home page (depending on the action received by the index)
  */
-<<<<<<< Updated upstream
-function home()
-{
-    require "view/home.php";
-}
 
-=======
 session_start();
 
 
-function home()
-{
 
-$_GET['image0Home'] = unCryptJsonDataAlbum(1);
-echo "test";
-echo $_GET['image0Home'];
+function home(){
+
+    $_GET['image0Home'] = unCryptJsonDataAlbum(1);
+
+    //echo "test";
+    //cho $_GET['image0Home'];
+
     require "view/home.php";
 }
 
-function observation(){
+function observation($arg){
+$_GET['album']=$arg;
 
-
-
+    require "view/observation.php";
 }
 
->>>>>>> Stashed changes
+
+
 /**
  * @brief This function is designed to inform the user that the resource requested doesn't exist (i. e. if the user modify the url manually)
  */

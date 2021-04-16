@@ -25,7 +25,7 @@ ob_start();
             <div class="row">
 
                 <div class="col-md-12 p-b-30">
-                    <?php //if ($loginErrorMessage != null) : ?>
+
                     <?php if (isset($loginErrorMessage)) : ?>
                         <h5><span style="color:red"><?= $loginErrorMessage; ?></span></h5>
                     <?php endif ?>
@@ -44,7 +44,7 @@ ob_start();
                         <div class="bo4 of-hidden size15 m-b-20">
                             <input class="sizefull s-text7 p-l-22 p-r-22" type="password" name="inputUserPsw" placeholder="Mot de passe">
                         </div class="md-12">
-                            <input type="submit" value="login" class="flex-c-m size10 bg4 bo-rad-23 hov1 m-text3 trans-0-4"> <br>Pas de compte ? Inscrivez-vous
+                            <input type="submit" value="login" class="flex-c-m size10 bg4 bo-rad-23 hov1 m-text3 trans-0-4"> <br>Pas de compte ? <a href="index.php?action=register" class="tag_btn  ">Inscrivez-vous</a>
                         </div>
                     </form>
                 </div>

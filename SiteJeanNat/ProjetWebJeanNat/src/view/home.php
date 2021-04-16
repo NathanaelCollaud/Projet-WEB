@@ -9,68 +9,70 @@
 
 ob_start();
 $title = "Accueil";
-<<<<<<< Updated upstream
-=======
 
-echo $_GET['image0Home'];
-
-$test = 'view/content/img/logoPintEdit.png'
-
->>>>>>> Stashed changes
 ?>
+
+    <head>
+
+
+
+    </head>
 
     <body>
 
+
     <div>
-        <img src="view/content/img/logoPintEdit.png"/>
+
+
+        <select name="tri" class="AccueilTri" id="tri">
+
+            <option value="recent">Date (récent)</option>
+            <option value="ancien">Date (ancien)</option>
+
+        </select>
+
+
+        <img class="logoAccueil" src="view/content/img/logoPintEdit.png"/>
+
+        <a class="AccueilBouton" href="index.php?action=login"> Compte </a>
 
         <h1 class="centerTitreAccueil">PintEdit</h1>
-<<<<<<< Updated upstream
-=======
+
 
         <h3 class="AccueilTrierPar"> Trier Par  </h3>
 
-        <h4 class="AccueilFiltre"> Filtre</h4>
+        <h4 class="AccueilFiltre"></h4>
+
+
+
+      
 
     </div>
 
 <div class="grilleAccueil">
 
-    <div class=zoom>
-        <div class=image>
-            <a href="observation.php">
-            <img class=""  src="<?php echo $test  ?>"  />
+  
+<?php
+$count=0;
+foreach (json_decode(file_get_contents("../src/data/album.json",false))->{"Albums"} as $test){
+
+
+    echo '<div class=zoom>
+      <div class=image>
+            <a href="index.php?action=observation'.$count.'" >
+            <img class="galleryImage"  src="'.
+   unCryptJsonDataAlbum($count).'" />
+
                 </a>
+
+   
         </div>
-    </div>
-
-    <div class=zoom>
-        <div class=image>
-            <a href="observation.php">
-            <img class="" src="<?php echo $_GET['image0Home']?>"/>
-            </a>
-        </div>
-    </div>
-
-    <div class=zoom>
-        <div class=image>
-            <a href="observation.php">
-            <img class="" src="view/content/img/logoPintEdit.png" />
-            </a>
-        </div>
-    </div>
-
-    <div class=zoom>
-        <div class=image>
-            <a href="observation.php">
-            <img class="" src="<?php $_SESSION["dataHomeImage"][3]?>"/>
-            </a>
-        </div>
->>>>>>> Stashed changes
-    </div>
+    </div>';
+$count++;}?>
 
 
 
+</div>
 
     </body>
 

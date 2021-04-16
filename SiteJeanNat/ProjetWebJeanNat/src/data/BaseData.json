@@ -11,6 +11,7 @@
   "Animaux" : [
 
     "narval",
+    "chien",
     "triton",
     "Rossignol",
     "poulpe",
@@ -98,7 +99,7 @@
     "Ver de terre",
     "roitelet",
     "yak",
-    "zèbre"
+    "zèbre",
     "mule",
     "Aardvark",
     "albatros",
@@ -148,12 +149,14 @@
     "dinosaure",
     "chien",
     "chien de mer",
+    "chamois",
     "dauphin",
     "âne",
     "dotterel",
     "Colombe",
     "libellule",
     "canard",
+    "vache",
     "dugong",
     "dunlin",
     "Aigle",

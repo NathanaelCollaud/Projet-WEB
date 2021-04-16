@@ -65,9 +65,7 @@ function registerNewAccount($userEmailAddress, $userPsw)
     //réécrire le fichier des users
     updateUsers($users);
     return true;
-<<<<<<< Updated upstream
-}
-=======
+
 }
 
 
@@ -76,12 +74,16 @@ function unCryptJsonDataAlbum ($case)
 {
 
 
+
+
     $json = file_get_contents("../src/data/album.json",false);
     $res = json_decode($json);
+
     return $res->{"Albums"}[$case]->{"Image"}[0];
+
 }
 
 
 
 
->>>>>>> Stashed changes
+

@@ -78,7 +78,7 @@ function register($registerRequest)
 
             if ($userPsw == $userPswRepeat) {
                 require_once "model/usersManager.php";
-                if (registerNewAccount($userEmailAddress, $userPsw)) {
+                if (registerNewAccount($userEmailAddress,  password_hash($userPsw, PASSWORD_DEFAULT))) {
                     createSession($userEmailAddress);
                     $registerErrorMessage = null;
                     require "view/home.php";
