@@ -10,10 +10,6 @@
 ob_start();
 $title = "Accueil";
 
-
-
-
-
 ?>
 
     <head>
@@ -42,13 +38,20 @@ $title = "Accueil";
 
         <h1 class="centerTitreAccueil">PintEdit</h1>
 
+
         <h3 class="AccueilTrierPar"> Trier Par  </h3>
 
         <h4 class="AccueilFiltre"></h4>
 
+
+
+      
+
     </div>
 
 <div class="grilleAccueil">
+
+  
 <?php
 $count=0;
 foreach (json_decode(file_get_contents("../src/data/album.json",false))->{"Albums"} as $test){
